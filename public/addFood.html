@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Food</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <link href="assets/css/theme.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./assets/css/addFood.css">
+</head>
+<body>
+        <div id="register">
+            <h2 class="login-title">Add Food</h2>
+            <form class="login-form">
+              <div>
+                <label for="name">Name</label>
+                <input
+                       id="name"
+                       type="text"
+                       placeholder="Food name"
+                       name="name"
+                       required
+                       />
+              </div>
+              <div>
+                <label for="price">Price</label>
+                <input
+                       id="number"
+                       type="number"
+                       placeholder="INR"
+                       name="number"
+                       required
+                       />
+              </div>
+        
+              <div>
+                <label for="password">Image Url</label>
+                <input
+                       id="imageUrl"
+                       type="text"
+                       placeholder="Image Url"
+                       name="password"
+                       required
+                       />
+              </div>
+              <button class="btn btn--form" type="submit" value="Log in" onclick=Show()>
+                Add Food
+              </button>
+            </form>
+        </div>
+    </div>
+    <script src="./assets/js/addFood.js"></script>
+</body>
+</html>
